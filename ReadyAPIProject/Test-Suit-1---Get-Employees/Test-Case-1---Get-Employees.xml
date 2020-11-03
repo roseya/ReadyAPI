@@ -3,7 +3,7 @@
   <con:settings>
     <con:setting id="baf1f775-7638-4582-8607-ee24a4af191ffileName">Test-Case-1---Get-Employees</con:setting>
   </con:settings>
-  <con:testStep id="633e390e-c652-43ff-ba7a-fe6ca8d8c899" name="Request 1" type="restrequest">
+  <con:savedRecentRuns>1</con:savedRecentRuns><con:testStep id="633e390e-c652-43ff-ba7a-fe6ca8d8c899" name="Request 1" type="restrequest">
     <con:settings/>
     <con:config xsi:type="con:RestRequestStep" methodName="Employees" resourcePath="/api/v1/employees" service="dummyAPIs" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       <con:restRequest id="576b23ab-85f2-49a8-a70f-b15cd27653e3" mediaType="application/json" name="Request 1">
