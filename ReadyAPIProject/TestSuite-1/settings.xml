@@ -1,2 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:testSuite id="7d0d1da0-2f85-4147-a5ef-8d4b9818aaec" name="TestSuite 1" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="7d0d1da0-2f85-4147-a5ef-8d4b9818aaecfileName">TestSuite-1</con:setting></con:settings><con:savedRecentRuns>1</con:savedRecentRuns><con:runType>SEQUENTIAL</con:runType><con:properties/><con:reportParameters/></con:testSuite>
+<con:testSuite id="7d0d1da0-2f85-4147-a5ef-8d4b9818aaec" name="TestSuite 1" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="7d0d1da0-2f85-4147-a5ef-8d4b9818aaecfileName">TestSuite-1</con:setting>
+  </con:settings>
+  <con:runType>SEQUENTIAL</con:runType>
+  <con:properties/>
+  <con:reportParameters/>
+</con:testSuite>

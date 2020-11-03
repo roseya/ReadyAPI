@@ -13,14 +13,14 @@
       <con:params/>
       <con:element>emp:Response</con:element>
     </con:representation>
-    <con:representation type="FAULT"><con:mediaType>text/html; charset=UTF-8</con:mediaType><con:status>429</con:status><con:params/><con:element>html</con:element></con:representation><con:request id="576b23ab-85f2-49a8-a70f-b15cd27653e3" mediaType="application/json" name="Request 1">
+    <con:request id="576b23ab-85f2-49a8-a70f-b15cd27653e3" mediaType="application/json" name="Request 1">
       <con:settings/>
       <con:endpoint>http://dummy.restapiexample.com</con:endpoint>
-      <con:request/><con:credentials>
+      <con:credentials>
         <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
         <con:authType>No Authorization</con:authType>
       </con:credentials>
-      <con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:parameters/>
+      <con:parameters/>
     </con:request>
   </con:method>
 </con:resource>
