@@ -6,7 +6,7 @@
   <con:testStep type="groovy" name="Groovy Script" id="635826bd-82aa-4bfa-bbbc-72f684043c3d">
     <con:settings/>
     <con:config>
-      <script>vm1</script>
+      <script>vm11</script>
     </con:config>
   </con:testStep>
   <con:properties/>
