@@ -1,2 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:testCase id="28e0448d-8650-4822-9d36-903fe6855b0d" discardOkResults="false" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="TestCase 1" searchProperties="true" timeout="0" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="28e0448d-8650-4822-9d36-903fe6855b0dfileName">TestCase-1</con:setting></con:settings><con:testStep type="groovy" name="Groovy Script" id="6941498b-48f3-4d17-96e4-876110de7306"><con:settings/><con:config><script>log.info "test"</script></con:config></con:testStep><con:properties/><con:reportParameters/></con:testCase>
+<con:testCase id="e9d08b78-a30d-4b49-bf5c-dcfe9fbee10f" discardOkResults="false" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="TestCase 1" searchProperties="true" timeout="0" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="e9d08b78-a30d-4b49-bf5c-dcfe9fbee10ffileName">TestCase-1</con:setting>
+  </con:settings>
+  <con:testStep type="groovy" name="Groovy Script" id="f2d5f306-90b4-4504-91ac-ecef29eb09d6">
+    <con:settings/>
+    <con:config>
+      <script>log.info "testing"</script>
+    </con:config>
+  </con:testStep>
+  <con:testStep type="restrequest" name="REST Request" id="3e64a5ab-84ef-4dee-a8ee-7260c389302c">
+    <con:settings/>
+    <con:config service="dummyAPIs" methodName="Employees" resourcePath="/api/v1/employees" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <con:restRequest name="REST Request" id="00de75a0-7d55-4483-8948-86fbd71ab67a" mediaType="application/json">
+        <con:settings>
+          <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+        </con:settings>
+        <con:encoding>UTF-8</con:encoding>
+        <con:endpoint>http://dummy.restapiexample.com</con:endpoint>
+        <con:request/>
+        <con:originalUri>http://dummy.restapiexample.com/api/v1/employees</con:originalUri>
+        <con:assertion type="Valid HTTP Status Codes" id="cd4db4be-a984-44a4-ba31-65b450981fa0" name="Valid HTTP Status Codes">
+          <con:settings/>
+          <con:configuration>
+            <codes>200</codes>
+          </con:configuration>
+        </con:assertion>
+        <con:credentials>
+          <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+          <con:authType>No Authorization</con:authType>
+        </con:credentials>
+        <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+        <con:parameters/>
+      </con:restRequest>
+    </con:config>
+  </con:testStep>
+  <con:properties/>
+  <con:reportParameters/>
+</con:testCase>
